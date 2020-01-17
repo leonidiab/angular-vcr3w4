@@ -1,0 +1,23 @@
+.botao{
+    width: 90%;
+    margin: 4px;
+    background: #008B8B;
+    color: white;
+    font: bold 12px/24px arial, helvetica, sans-serif;
+}
+.botao:focus{
+    background: navy;
+}
+.input-text {
+    margin-top: 3px;
+    width:50%;
+    margin-left:6px;
+    display: flex;
+}
+.col-xs-3 {
+    padding: 0px;
+}
+
+.caixa {
+    display: flex;
+}

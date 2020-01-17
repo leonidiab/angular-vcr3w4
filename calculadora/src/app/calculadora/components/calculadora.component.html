@@ -1,0 +1,56 @@
+<div class="container-fluid">
+    <form>
+      <div class="row">
+        <div class="col-xs-8 col-sm-6 col-md-4">
+            <div class="row">
+              <div class="col-xs-3">
+                <button 
+                  type="button" 
+                  class="btn btn-default botao" 
+                  (click)="somar()" id = "soma">Soma
+                </button>
+              </div>
+              <div class="col-xs-3">
+                <button 
+                  type="button" 
+                  class="btn btn-default botao" 
+                  (click)="subtrair()" id = "subtracao">Subtracao
+                </button>
+              </div>
+              <div class="col-xs-3">
+                <button 
+                  type="button" 
+                  class="btn btn-default botao" 
+                  (click)="multiplicar()" id="multiplicacao">Multiplicacao
+                </button>
+              </div>
+              <div class="col-xs-3">
+                <button 
+                  type="button" 
+                  class="btn btn-default botao" 
+                  (click)="dividir()" id="divisao">Divisao
+                </button>
+              </div>
+            </div>
+          <fieldset style="display: flex"> <!-- caixas de input -->
+            <input 
+               type="text" 
+               class="form-control text-left input-text"
+               id="display" 
+               name="display" 
+               [value] = "display" 
+               readonly>
+
+              <input 
+               type="text"
+               class="form-control text-left input-text"
+               id="display2" 
+               name="display2" 
+               [value] = "display2" 
+                readonly>
+              
+          </fieldset>
+        </div>
+      </div>
+    </form>
+  </div>
